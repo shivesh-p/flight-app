@@ -1,0 +1,27 @@
+fieldset#search {
+  background: #f1f1f1;
+  border: 0 none;
+  border-bottom: 1px solid #ccc;
+}
+.inline {
+  display: flex;
+}
+.left {
+  display: flex;
+  float: left;
+  margin-right: 135px;
+}
+.right {
+  display: flex;
+  float: left;
+}
+#buttonBar {
+  display: flex;
+  justify-content: end;
+  flex-direction: row-reverse;
+  align-items: center;
+  gap: 10px;
+}
+mat-icon {
+  margin: 0 !important;
+}
