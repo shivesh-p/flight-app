@@ -1,0 +1,13 @@
+#footer {
+  display: table-row;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  .mat-toolbar {
+    span {
+      font-size: 0.7rem;
+      margin-top: 10px;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+  }
+}

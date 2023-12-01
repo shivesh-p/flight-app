@@ -1,0 +1,22 @@
+<div id="mainContainer">
+    <app-left-side></app-left-side>
+    <div id="mainMargin">
+        <div id="main">
+            <div id="mainBanner">
+                <h3>Search Flights</h3>
+                <p>
+                    <span (click)="expandToggle()">
+                        <mat-icon *ngIf="!toggleExpand">expand_more</mat-icon>
+                        <mat-icon *ngIf="toggleExpand">expand_less</mat-icon>
+                    </span>
+                </p>
+            </div>
+            <ng-container *ngIf="toggleExpand">
+                <app-search-form></app-search-form>
+            </ng-container>
+
+            <app-flight-list></app-flight-list>
+        </div>
+    </div>
+</div>
+<app-footer></app-footer>
