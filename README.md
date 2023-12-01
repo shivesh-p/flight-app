@@ -1,6 +1,6 @@
 # FlightApp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.4.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.4. Just a basic project to get to know the new angular and its syntax.
 
 ## Development server
 
